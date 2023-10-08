@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     public float horizontalInput;
     public float speed = 10.0f;
+    public float leftBoundary = -10.0f;
+    public float rightBoundary = 10.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,10 +17,16 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x < -10)
+        if (transform.position.x < leftBoundary)
         {
-            transform.position = new Vector3(-10, transform.position.y, transform.position.z);
+            transform.position = new Vector3(leftBoundary, transform.position.y, transform.position.z);
         }
+
+        if (transform.position.x > rightBoundary)
+        {
+            transform.position = new Vector3(rightBoundary, transform.position.y, transform.position.z);
+        }
+
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 
