@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1882271971990631465}
   - component: {fileID: 3584920822681319757}
   - component: {fileID: -1635752809010686235}
+  - component: {fileID: 3340787746205407457}
   m_Layer: 0
   m_Name: Food_Cookie_01
   m_TagString: Untagged
@@ -160,3 +161,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5710925, y: 0.10996769, z: 0.57109237}
   m_Center: {x: -0.0017824173, y: 0, z: -0.0017824571}
+--- !u!114 &3340787746205407457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2427378581740965343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 151fe0a1559e94a41a6d0e3c3ef58f0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
