@@ -648,7 +648,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45c0e1f24e2ce4a5b9bf1f3a7499cd45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObjects: []
+  pooledObjects:
+  - {fileID: 4162219739180831112, guid: 98394fdd515794a48a62643a515abf54, type: 3}
   objectToPool: {fileID: 4162219739180831112, guid: 98394fdd515794a48a62643a515abf54, type: 3}
   amountToPool: 20
 --- !u!1 &1590138454
